@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) the orchid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,7 +27,11 @@
 
 DEVICE_PATH := device/xiaomi/twolip
 
-# Assert
+# Orchidos by the projects
+BUILD_BROKEN_DUP_RULES := truedos
+
+
+#Assert
 TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 
 # Boot animation
