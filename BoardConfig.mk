@@ -27,6 +27,9 @@
 
 DEVICE_PATH := device/xiaomi/twolip
 
+# Orchidos rule
+BUILD_BROKEN_DUP_RULES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 
@@ -47,7 +50,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2021-05-05
 
 # Inherit the proprietary files
 -include vendor/xiaomi/twolip/BoardConfigVendor.mk
