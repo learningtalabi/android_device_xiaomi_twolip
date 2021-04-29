@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aim_twolip.mk
+    $(LOCAL_DIR)/exthm_twolip.mk
 
 COMMON_LUNCH_CHOICES := \
-    aim_twolip-user \
-    aim_twolip-userdebug \
-    aim_twolip-eng
+    exthm_twolip-user \
+    exthm_twolip-userdebug \
+    exthm_twolip-eng
